@@ -9,11 +9,23 @@ public class App {
     }
 
     /**
+     * <<<<<<< HEAD
      * Retourne une chaîne de caractère "Hello World!"
      * 
      * @return chaîne de caractère
      */
     public static String hello() {
         return "Hello World!";
+    }
+
+    /*
+     * Retour le paramètre en entrée
+     * 
+     * @param _word
+     * 
+     * @return _word
+     */
+    public static String hello(String _word) {
+        return _word;
     }
 }

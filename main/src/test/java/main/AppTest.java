@@ -9,6 +9,7 @@ import main.App;
  */
 public class AppTest {
     /**
+     * <<<<<<< HEAD
      * Test hello()
      */
     @Test
@@ -16,5 +17,15 @@ public class AppTest {
         String test_result = "Hello World!";
 
         assertEquals("ERREUR", test_result, App.hello());
+    }
+
+    /*
+     * Test hello(param)
+     */
+    @Test
+    public void testHelloParam() {
+        String test_result = "LALA";
+
+        assertEquals("ERREUR", test_result, App.hello("LALA"));
     }
 }
